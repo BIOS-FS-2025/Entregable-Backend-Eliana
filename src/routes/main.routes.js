@@ -6,6 +6,6 @@ const mainRoutes = Router();
 
 mainRoutes.use("/posts", router);
 
-router.use("/auth", authRoutes);
+mainRoutes.use("/auth", authRoutes);
 
 export default mainRoutes;
